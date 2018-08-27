@@ -6,8 +6,8 @@ https://guidedhacking.com/threads/crackme-series.8366/
 * Solution: Nop, jmp or prevent using debugger
 
 2) https://guidedhacking.com/attachments/crackme2-rar.3674/
-* Challenge: 
-* Solution: 
+* Challenge: IsDebuggerPresent & simple input with plaintext password
+* Solution: Disable debugger check and enter password "aymays"
 
 3) https://guidedhacking.com/attachments/crackme3-rar.3675/
 * Challenge: 
