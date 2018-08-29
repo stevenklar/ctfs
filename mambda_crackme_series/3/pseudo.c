@@ -1,4 +1,3 @@
-
 _main(processInformation)
     KERNEL32.OutputDebugStringA(0x40214c, processInformation)
     lastError_1 = KERNEL32.GetLastError()
