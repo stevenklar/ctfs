@@ -22,7 +22,7 @@ So here is the jmp which ruins our day:
 EAX=410000
 ```
 
-FS = "File Segment"
+FS = "Flat Segment"
 whatever = fs+[0x30]
 return of the function we pointing to = [whatever+2]
 return == 1 (most likely IsDebuggerPresent == 1)
