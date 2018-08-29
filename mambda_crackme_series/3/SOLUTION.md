@@ -22,10 +22,11 @@ Anti Debug logic can be hidden a new thread
 ## Solutions?
 
 ### Jump
-* 1067 je => jmp
-* 10a3 jne => jmp
+All hex offsets without base 
+* 0x1067 je => jmp
+* 0x10a3 jne => jmp
 * 0x10fe je => jmp
 * 0x1008 je => jmp
-* 0x1032 jne => jmp
+* 0x1028 jne => jmp
 
 You could also try to hide the debugger, or leave some jumps when don't even opening the debugger.
